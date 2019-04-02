@@ -1,0 +1,6 @@
+---
+- name: Generate Node configuration files
+  hosts: localhost
+  
+  roles:
+   - router
