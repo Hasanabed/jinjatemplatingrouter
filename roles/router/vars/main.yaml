@@ -7,13 +7,13 @@ routers:
 #loopback: ---- LLD or IPAM tool/Master IP plan document
 
   - hostname: R1
-    enable_secret: ericssonsecret1
+    enable_secret: secret1
     loopback: 1.1.1.1 255.255.255.255
 
   - hostname: R2
-    enable_secret: ericssonsecret2
+    enable_secret: secret2
     loopback: 2.2.2.2 255.255.255.255
 
   - hostname: R3
-    enable_secret: ericssonsecret3
+    enable_secret: secret3
     loopback: 3.3.3.3 255.255.255.255
